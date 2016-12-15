@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>团队介绍</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1" /> 
+	<script>
+		var _width = parseInt(window.screen.width);
+		var scale = _width/640;
+		var ua = navigator.userAgent.toLowerCase();
+		var result = /android (\d+\.\d+)/.exec(ua);
+		if (result){
+		var version = parseFloat(result[1]);
+		if(version>2.3){
+		document.write('<meta name="viewport" content="width=640, minimum-scale = '+scale+', maximum-scale = '+scale+', target-densitydpi=device-dpi">');
+		}else{
+		document.write('<meta name="viewport" content="width=640, target-densitydpi=device-dpi">');
+		}
+		} else {
+		document.write('<meta name="viewport" content="width=640, user-scalable=no, target-densitydpi=device-dpi">');
+		}
+</script>
+	<script src="js/zepto.js"></script>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/jquery-ui.js"></script>
+	<script src="js/jquery.js"></script>
+	<script src="js/jquery.transit.js"></script>
+	<link rel="stylesheet" type="text/css" href="css/nomalize.css">
+	<!-- <link rel="stylesheet" href="css/style.css" media="screen" type="text/css" /> -->
+	<link rel="stylesheet" type="text/css" href="c/css/font-awesome.min.css">
+	<link rel="stylesheet" type="text/css" href="css/c1.css">
+	<script src="js/js1.js"></script>
+</head>
+<body>
+
+<div class="main-wrapper">
+
+	<header>
+		<nav>
+		<div class="logo"><a href="#">机器人团队</a></div>
+		<ul>
+			
+				<li><a href="#" class="active">首页</a></li>
+				<li><a href="#">机器人部落</a></li>
+				<li><a href="#">计算机维修</a></li>
+				<li><a href="#">联系我们</a></li>
+			</ul>
+		</nav>
+	
+		<div id="banner">
+			<div class="inner">
+				<h1>内蒙古农业大学<br>机器人团队</h1>
+				<p class="sub-heading">Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				<button class="bu">Get to know us</button>
+				<div class="more">
+					More<br>
+					<button id="bu1"><i class="fa fa-angle-double-down fa-2x"></i>
+					</button>
+				</div>
+			</div>
+		</div>
+		
+	</header>
+
+	<div class="content">
+		<section class="green-section">
+			<div class="wrapper">
+				<div>
+					<h2>欢迎来到内蒙古农业大学计算机团队</h2>
+					<div class="hr"></div>
+					<p class="sub-heading">
+						Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				</div>
+				<div class="icon-group">
+					<span class="icon"><i class="fa fa-rocket fa-2x"></i></span>
+					<span class="icon"><i class="fa fa-cogs fa-2x"></i></span>
+					<span class="icon"><i class="fa fa-space-shuttle fa-2x"></i></span>
+				</div>
+			</div>
+		</section>
+		<section class="gray-section">
+			<div class="article-preview">
+				<div class="img-section">
+					<img src="img/pic01.jpg">
+				</div>
+				<div class="text-section">
+					<h2>标题</h2>
+					<div class="sub-heading">
+							Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+			<div class="article-preview">
+				<div class="text-section">
+					<h2>标题</h2>
+					<div class="sub-heading">
+							副标题
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+				<div class="img-section">
+					<img src="img/pic02.jpg">
+				</div>
+			</div>
+			<div class="article-preview">
+				<div class="img-section">
+					<img src="img/pic03.jpg">
+				</div>
+				<div class="text-section">
+					<h2>标题</h2>
+					<div class="sub-heading">
+							副标题
+					</div>
+					<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit.</p>
+				</div>
+			</div>
+		</section>
+		<section class="purple-section">
+		<div class="wrapper">
+			<div class="heading-wrapper">
+				<h2>标题</h2>
+				<div class="hr"></div>
+				<div class="sub-heading">
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+				</div>
+			</div>
+		
+	
+		<div class="card-group clearfix">
+			<div class="card">
+				<h3>标题</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="card">
+				<h3>标题</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="card">
+				<h3>标题</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="card">
+				<h3>标题</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="card">
+				<h3>标题</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+			<div class="card">
+				<h3>标题</h3>
+				<p>
+					Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+					tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+					quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+					consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+					cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+					proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+				</p>
+			</div>
+
+		</div>
+
+		
+		</div>
+		
+	</section>
+	</div>
+	<div class="music">
+	
+<!-- 		<audio class="m" autoplay="autopaly" controls>
+ 			 <source src="假如爱有天意.mp3" type="audio/mp3" >
+		</audio> -->
+	</div>
+	<footer>
+	<a href="java:;" id="btn" title="回到顶部">
+		<i class="fa fa-angle-double-up fa-3x il"></i>
+		<span id="hui">回到顶部</span>
+	</a>
+		<ul class="share-group">
+			<li><i class="fa fa-reddit-alien fa-2x"></i></li>
+			<li><i class="fa fa-refresh fa-spin fa-2x">
+				</i>
+				</li>
+			<li><i class="fa fa-wechat fa-2x"></i></li>
+			<li><i class="fa fa-heart fa-2x"></i></li>
+			<li><i class="fa fa-tv fa-2x"></i></li>
+		</ul>
+		<div class="copy">
+			&copy 内蒙古农业大学机器人团队 - 2016
+		</div>
+		<div class="buttom_menu">
+			<nav class="buttom_nav">
+				<li>
+					<i class="fa fa-phone fa-3x"></i>
+				</li>
+				<li>
+					<i class="fa fa-home fa-3x"></i>
+				</li>
+				<li>
+					<i class="fa fa-list fa-3x"></i>
+				</li>
+			</nav>
+			
+		</div>
+	</footer>
+	</div>
+
+
+
+
+</body>
+</html>
